@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+long long n, a, b, i = 0, suc = 0, nr = 0, zero = 0;
+
+int main()
+{
+    ifstream fin("3lan.in");
+    ofstream fout("3lan.out");
+
+    fin >> n;
+    
+    while(i <= n)
+    {
+        fin >> a;
+        i ++;
+    }
+    
+    fout << 7 * n * (n - 1) / 2;
+
+}
